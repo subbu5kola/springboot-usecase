@@ -6,7 +6,6 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
 @SpringBootApplication
-@CrossOrigin
 @ComponentScan(basePackages={"com.usecase.controller","com.usecase.service","com.usecase.model"})
 public class DemoApplication {
 
